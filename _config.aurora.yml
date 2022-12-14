@@ -1,0 +1,172 @@
+#! ---------------------------------------------------------------
+#! Aurora Theme for Hexo
+#! ---------------------------------------------------------------
+#! Designed & Coded By TriDiamond
+#! ---------------------------------------------------------------
+
+#! ---------------------------------------------------------------
+#! Site Configs
+#！ @docs https://aurora.tridiamond.tech/guide/configuration.html
+#! ---------------------------------------------------------------
+site:
+  subtitle: "生生's Blog"  #博客自标题，页面主标题后面会跟随这个标题内容
+  author: 龚宣璋
+  nick: ' '
+  description: JAVA和DOTA都会点
+  link: '/'
+  language: cn
+  multi_language: true
+  logo: https://img-blog.csdnimg.cn/20210313122054101.png
+  avatar: https://img-blog.csdnimg.cn/20210313122054101.png
+  # beian: # 如果不需要可以让 number 和 link 保持空白
+  #   number: " "
+  #   link: ' '
+  # police_beian:
+  #   number: " "
+  #   link: ' '
+
+#! ---------------------------------------------------------------
+#! Authors Configs
+#！ @docs https://aurora.tridiamond.tech/guide/authors.html
+#! ---------------------------------------------------------------
+authors:
+  ##! example
+  # TriDiamond:
+  #   name: TriDiamond
+  #   avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
+  #   link: https://github.com/TriDiamond
+  #   description: 'Think like an artist, code like an artisan.'
+  #   socials:
+  #     github: https://tridiamond.tech
+
+#! ---------------------------------------------------------------
+#! Menu Configs
+#！ @docs https://aurora.tridiamond.tech/guide/menu.html
+#! ---------------------------------------------------------------
+menu:
+  About: true
+  Tags: true
+  Archives: true
+  # projects:
+  #   name: "这是啥"
+  #   children:
+  #     enen:
+  #       name: "看看"
+  #       path: "https://www.baidu.com"
+
+#! ---------------------------------------------------------------
+#! Theme Config
+#! @docs https://aurora.tridiamond.tech/guide/theme.html
+#! ---------------------------------------------------------------
+theme:
+  dark_mode: true
+  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  feature: true
+  gradient:
+    color_1: '#24c6dc'
+    color_2: '#5433ff'
+    color_3: '#ff0099'
+
+#! ---------------------------------------------------------------
+#! Social Configs
+#! @docs https://aurora.tridiamond.tech/guide/social.html
+#! ---------------------------------------------------------------
+socials:
+  customs:
+  ##! Example:
+  ##! --- Using SVG
+  bilibili:
+    icon: http://localhost:4000/svg/bilibili.svg
+    link: https://live.bilibili.com/22619211
+
+  ##! --- Using IconFont
+  baidu:
+    icon: iconfont icon-baidu
+    link: https://live.bilibili.com/22619211
+
+  ##! --- Using FontAwesome
+  book:
+    icon: far fa-address-book
+    link: https://live.bilibili.com/22619211
+
+#! ---------------------------------------------------------------
+#! Site Meta Configs
+#! @docs https://aurora.tridiamond.tech/guide/theme.html
+#! ---------------------------------------------------------------
+site_meta:
+  cdn: cn
+  favicon:
+  description: ''
+  keywords: ''
+  author: ''
+
+#! ---------------------------------------------------------------
+#! Plugins
+#! @docs https://aurora.tridiamond.tech/guide/plugins.html
+#! ---------------------------------------------------------------
+
+# For local development only!
+gitalk:
+  enable: false
+  autoExpand: false
+  clientID: ''
+  clientSecret: ''
+  repo: 'gongxuanzhang.github.io'
+  owner: 'gongxuanzhang'
+  admin: ['gongxuanzhang']
+  id: uid
+  language: cn
+  distractionFreeMode: true
+  recentComment: true
+  proxy: ''
+
+# Valine comment plugin (recommended!)
+# see https://valine.js.org/quickstart.html
+valine:
+  enable: false
+  app_id:
+  app_key:
+  avatar: ''
+  placeholder: Leave your thoughts behind~
+  visitor: true
+  lang: en
+  avatarForce: false
+  meta: ['nick', 'mail']
+  requiredFields: []
+  admin: 'TriDiamond'
+  recentComment: true
+
+# Enable Busuanzi statistic plugin
+# see http://ibruce.info/2015/04/04/busuanzi/
+busuanzi:
+  enable: false
+
+copy_protection:
+  enable: false
+  author:
+    cn: 作者
+    en: Author
+  link:
+    cn: 本文来自于
+    en: Article is from
+  license:
+    cn: 博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
+    en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
+
+#! ---------------------------------------------------------------
+#! Enable Aurora Bot Dia
+#! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
+#! ---------------------------------------------------------------
+aurora_bot:
+  enable: true
+  locale: cn
+  bot_type: dia
+  tips:
+
+#! ---------------------------------------------------------------
+#! Injections
+#! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
+#! ---------------------------------------------------------------
+injects:
+  scripts:
+  css:
