@@ -10,7 +10,7 @@ categories: 开发相关
 
 # hexo Aurora 去掉评论区
 
-## 问题：评论侧边栏
+## 问题：评论侧边栏 
 
 今天刚搭建了博客，用了hexo Aurora主题
 
