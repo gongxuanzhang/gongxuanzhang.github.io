@@ -1,5 +1,5 @@
 ---
-title: (3) [用Java实现MySQL] 会话状态与全局变量
+title: (4) [用Java实现MySQL] 会话状态与全局变量
 date: 2022-12-18 10:41:10
 tags:
 - 手写mysql
