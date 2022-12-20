@@ -14,7 +14,7 @@ categories: 开发相关
 
 今天刚搭建了博客，用了hexo Aurora主题
 
-整体主题挺满意的，但是有两个地方非常难受。
+整体主题挺满意的，但是有个地方非常难受。
 
 <img src="/images/image-20221109094356058.png" alt="image-20221109094356058" style="zoom: 50%;" />
 
